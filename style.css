@@ -2,6 +2,7 @@ body {
   background-color: bisque;
   display: flex;
   flex-direction: column;
+  font-size: 1vw;
 }
 nav {
   background-color: rgba(255, 192, 203, 0.5);
@@ -27,10 +28,12 @@ h1 {
   display: flex;
   justify-content: center;
   margin-bottom: 200px;
+  max-width: 100%; height: auto;
 }
 .Bild_2 {
   display: flex;
   justify-content: center;
+  max-width: 100%; height: auto;
 }
 aside {
   width: 100px;
