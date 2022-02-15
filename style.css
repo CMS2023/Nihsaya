@@ -1,0 +1,49 @@
+body {
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  background-color: rgba(255, 192, 203, 0.5);
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav a {
+  color: #050000;
+  font-size: 17px;
+  display: inline-block;
+  border: 3px solid black;
+  padding: 2px 2px 0px 2px;
+}
+h1 {
+  text-align: center;
+  text-decoration: solid;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.Bild_1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+.Bild_2 {
+  display: flex;
+  justify-content: center;
+}
+aside {
+  width: 100px;
+  height: 500px;
+  padding-left: 15px;
+  margin-left: 275px;
+  float: right;
+  font-style: italic;
+  background-color: pink;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
