@@ -24,6 +24,10 @@ h1 {
   margin-top: 20px;
   margin-bottom: 50px;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}  
 .Bild_1 {
   display: flex;
   justify-content: center;
